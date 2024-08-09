@@ -1,0 +1,41 @@
+JavaScript Features- 
+1. let and const 
+2. arrow functions 
+
+what is function - block of code for performing a specific task.
+
+function fun(){
+	return "hello"
+}
+
+let result = fun()
+
+let fun = function(){
+		return "hello"
+}
+
+let fun = ()=>"hello"
+
+let add  =(a,b)=>a+b
+
+3. destructuring - 
+let Student  =  {fname:"Ram",lname:"Sharma",age:30}
+console.log(Student.fname)
+
+let {fname,lname}=Student
+console.log(fname)
+
+4. spread operator - (...)
+let arr = [2,3,5]
+let arr1 = [3,8,arr,9,2]
+console.log(arr1) //[3,8,[2,3,5],9,2]
+
+let arr2 = [3,8,...arr,9,2]
+console.log(arr2) //[3,8,2,3,5,9,2]
+
+ ReactJS - javascript library for building UI.
+
+JSON -
+{"fname":"Ram","lname":"Sharma","age":30}
+
+nodejs install - 
