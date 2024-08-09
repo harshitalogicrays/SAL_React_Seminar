@@ -7,6 +7,7 @@ what is function - block of code for performing a specific task.
 function fun(){
 	return "hello"
 }
+fun()
 
 let result = fun()
 
@@ -39,3 +40,24 @@ JSON -
 {"fname":"Ram","lname":"Sharma","age":30}
 
 nodejs install - 
+
+================================
+let fun=()=>"hello"
+fun()
+
+//component - returns jsx 
+let Fun = ()=>{
+	return <h1>Hello</h1>
+}
+<Fun></Fun> or <Fun/>
+
+
+
+
+
+
+
+
+
+
+
